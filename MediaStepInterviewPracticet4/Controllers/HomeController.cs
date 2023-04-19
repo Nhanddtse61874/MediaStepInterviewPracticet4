@@ -1,5 +1,7 @@
-﻿using MediaStepInterviewPracticet4.Models;
+﻿using AutoMapper;
+using MediaStepInterviewPracticet4.Models;
 using Microsoft.AspNetCore.Mvc;
+using StudentService.Service;
 using System.Diagnostics;
 
 namespace MediaStepInterviewPracticet4.Controllers
@@ -7,15 +9,18 @@ namespace MediaStepInterviewPracticet4.Controllers
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
+        private readonly IStudentService _studentService;
+        private readonly IMapper _mapper;
+        public HomeController(ILogger<HomeController> logger, IStudentService studentService, IMapper mapper)
         {
             _logger = logger;
+            _studentService = studentService;
+            _mapper = mapper;
         }
 
         public IActionResult Index()
         {
-            return View();
+            return View(_mapper.Map<List<StudentViewModel>>(_studentService.GetAll()));
         }
 
         public IActionResult Privacy()

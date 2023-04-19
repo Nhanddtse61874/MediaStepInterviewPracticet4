@@ -5,6 +5,10 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStepInterviewPracticet4", "MediaStepInterviewPracticet4\MediaStepInterviewPracticet4.csproj", "{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StudentService", "StudentService\StudentService.csproj", "{293C97D5-FB05-4E59-AF39-9B5F90435CC5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataRepository", "DataRepository\DataRepository.csproj", "{F7B7EB25-A641-4E01-88E0-E79EC7A36024}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{293C97D5-FB05-4E59-AF39-9B5F90435CC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{293C97D5-FB05-4E59-AF39-9B5F90435CC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{293C97D5-FB05-4E59-AF39-9B5F90435CC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{293C97D5-FB05-4E59-AF39-9B5F90435CC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7B7EB25-A641-4E01-88E0-E79EC7A36024}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7B7EB25-A641-4E01-88E0-E79EC7A36024}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7B7EB25-A641-4E01-88E0-E79EC7A36024}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7B7EB25-A641-4E01-88E0-E79EC7A36024}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

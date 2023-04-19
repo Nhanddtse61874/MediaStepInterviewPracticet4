@@ -1,7 +1,19 @@
+using DataRepository.Context;
+using DataRepository.Repository;
+using Microsoft.EntityFrameworkCore;
+using StudentService.Service;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
+builder.Services.AddDbContext<StudentContext>(
+        options => options.UseSqlServer("name=ConnectionStrings:DefaultConnection"));
+
+builder.Services.AddAutoMapper(typeof(Program));
+
+builder.Services.AddScoped<IStudentService, StudentsService>();
+builder.Services.AddScoped<IStudentRepository, StudentRepository>();
 
 var app = builder.Build();
 
