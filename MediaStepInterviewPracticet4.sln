@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MediaStepInterviewPracticet4", "MediaStepInterviewPracticet4\MediaStepInterviewPracticet4.csproj", "{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CAA98D-4993-4BE5-852D-2AFBCCDF72E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A1F04367-B0CD-42CC-9303-C5518B7E277E}
+	EndGlobalSection
+EndGlobal
